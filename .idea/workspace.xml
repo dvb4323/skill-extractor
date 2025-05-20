@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dcf94f1-9c13-4bce-93f9-1ccc04d891af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/requirements_data.jsonl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/skill_recommendation_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skill_dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skill_extractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/process_job_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/process_job_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skill_annotation_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/skill_annotation_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skill_extraction_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/skill_extraction_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skill_recommendation_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transformer_skill_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/transformer_skill_extraction.py" afterDir="false" />
-    </list>
+    <list default="true" id="1dcf94f1-9c13-4bce-93f9-1ccc04d891af" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +219,7 @@
       <workItem from="1747208799209" duration="8191000" />
       <workItem from="1747237364721" duration="1705000" />
       <workItem from="1747318112918" duration="1740000" />
-      <workItem from="1747740162992" duration="3434000" />
+      <workItem from="1747740162992" duration="4046000" />
     </task>
     <servers />
   </component>
