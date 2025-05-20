@@ -1,0 +1,11 @@
+streamlit~=1.45.1
+pandas~=2.2.3
+nltk~=3.9.1
+tqdm~=4.67.1
+spacy~=3.8.5
+scikit-learn~=1.6.1
+torch~=2.7.0
+numpy~=1.26.4
+transformers~=4.51.3
+seqeval~=1.2.2
+jsonlines~=4.0.0
