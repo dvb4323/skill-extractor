@@ -126,7 +126,7 @@ def train_model():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # Chuẩn bị dữ liệu
-    texts, tags_list = create_training_data("data/jobs.json", "data/annotations.json")
+    texts, tags_list = create_training_data("data/jobs.json", "../data/annotations.json")
 
     # Phân chia tập train/validation
     train_texts, val_texts, train_tags, val_tags = train_test_split(
@@ -393,7 +393,7 @@ def create_annotation_data(rule_based_results, output_file="data/annotations.jso
 def main():
     """Quy trình đầy đủ: từ rule-based đến transformer-based"""
     # 1. Tạo thư mục cho dữ liệu và mô hình
-    os.makedirs("data", exist_ok=True)
+    os.makedirs("../data", exist_ok=True)
 
     # 2. Sử dụng rule-based extractor để tạo dữ liệu huấn luyện ban đầu
     extractor = SkillExtractor()

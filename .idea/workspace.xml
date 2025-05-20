@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dcf94f1-9c13-4bce-93f9-1ccc04d891af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/process_job_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skill_annotation_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skill_extraction_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skill_recommendation_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_extraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transformer_skill_extraction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/requirements_data.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/skill_recommendation_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skill_dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skill_extractor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/process_job_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/process_job_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_annotation_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/skill_annotation_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_extraction_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/skill_extraction_system.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill_recommendation_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformer_skill_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/transformer_skill_extraction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +54,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.skill_annotation_tool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.skill_extraction_system.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_extraction.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zenbook/PycharmProjects/jobDataCrawler&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app.executor": "Run",
+    "Python.draft.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.skill_annotation_tool.executor": "Run",
+    "Python.skill_extraction_system.executor": "Run",
+    "Python.skill_extractor.executor": "Run",
+    "Python.test_extraction.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Zenbook/PycharmProjects/skillExtractor/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zenbook\PycharmProjects\skillExtractor\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zenbook\PycharmProjects\skillExtractor\scripts" />
       <recent name="C:\Users\Zenbook\PycharmProjects\skillExtractor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.skill_extraction_system">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="skillExtractor" />
       <option name="ENV_FILES" value="" />
@@ -88,7 +99,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Zenbook\PycharmProjects\skillExtractor\app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="skillExtractor" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +145,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skill_annotation_tool.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Zenbook\PycharmProjects\skillExtractor\scripts\skill_annotation_tool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +168,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skill_extraction_system.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Zenbook\PycharmProjects\skillExtractor\scripts\skill_extraction_system.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="skill_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="skillExtractor" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +191,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_extraction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skill_extractor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,10 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.skill_extractor" />
+        <item itemvalue="Python.draft" />
         <item itemvalue="Python.skill_extraction_system" />
         <item itemvalue="Python.skill_annotation_tool" />
-        <item itemvalue="Python.test_extraction" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +232,7 @@
       <workItem from="1747208799209" duration="8191000" />
       <workItem from="1747237364721" duration="1705000" />
       <workItem from="1747318112918" duration="1740000" />
+      <workItem from="1747740162992" duration="3434000" />
     </task>
     <servers />
   </component>
@@ -205,7 +241,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/skillExtractor$skill_extraction_system.coverage" NAME="skill_extraction_system Coverage Results" MODIFIED="1747214370272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/skillExtractor$draft.coverage" NAME="draft Coverage Results" MODIFIED="1747743094541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/skillExtractor$skill_extractor.coverage" NAME="skill_extractor Coverage Results" MODIFIED="1747743110989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$skill_annotation_tool.coverage" NAME="skill_annotation_tool Coverage Results" MODIFIED="1747214145043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/skillExtractor$app.coverage" NAME="app Coverage Results" MODIFIED="1747743742097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$main.coverage" NAME="main Coverage Results" MODIFIED="1747160625268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$test_extraction.coverage" NAME="test_extraction Coverage Results" MODIFIED="1747209605139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

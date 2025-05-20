@@ -23,7 +23,7 @@ class SkillAnnotationTool:
         self.create_widgets()
 
         # Tải dữ liệu gán nhãn nếu có
-        self.annotations_file = "data/annotations.json"
+        self.annotations_file = "../data/annotations.json"
         if os.path.exists(self.annotations_file):
             with open(self.annotations_file, 'r', encoding='utf-8') as f:
                 self.annotations = json.load(f)
@@ -334,7 +334,7 @@ class SkillAnnotationTool:
             })
 
         # Lưu dữ liệu BIO ra file
-        with open("data/bio_training_data.json", 'w', encoding='utf-8') as f:
+        with open("../data/bio_training_data.json", 'w', encoding='utf-8') as f:
             json.dump(bio_data, f, ensure_ascii=False, indent=4)
 
         # Tạo file CSV cho huấn luyện

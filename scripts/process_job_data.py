@@ -60,8 +60,8 @@ def process_excel_job_data(file_path):
 
 def main():
     # Thư mục chứa dữ liệu job
-    data_dir = "data"
-    output_dir = "output"
+    data_dir = "../data"
+    output_dir = "../output"
 
     # Tạo thư mục output nếu chưa tồn tại
     os.makedirs(output_dir, exist_ok=True)
