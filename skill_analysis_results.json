@@ -1,0 +1,131 @@
+{
+    "job_analyses": [
+        {
+            "job_title": "Nhân Viên Đạo Tạo Về Da Thẩm Mỹ (Yêu Cầu Nữ)",
+            "company": "Công ty TNHH Mediworld",
+            "extracted_skills": [
+                "nhanh nhẹn",
+                "có kiến thức về da",
+                "tận tâm",
+                "cầu",
+                "ngoại",
+                "nhanh",
+                "vật lý trị liệu",
+                "nghiệm",
+                "kiến thức về da",
+                "mặt",
+                "kinh nghiệm",
+                "giảng dạy",
+                "đẹp",
+                "tạo",
+                "chỉ chứng nhận sau",
+                "spa - ưu tiên",
+                "tiên",
+                "về da",
+                "kinh",
+                "thẩm",
+                "- ưu",
+                "khả năng truyền",
+                "đào tạo",
+                "chứng chỉ",
+                "chứng",
+                "môi trường thẩm",
+                "giảng dạy - ưu tiên",
+                "spa",
+                "tên",
+                "nhiệt tình",
+                "thẩm mỹ",
+                "có kinh nghiệm giảng dạy",
+                "tốt",
+                "kiến",
+                "thức",
+                "truyền đạt",
+                "truyền đạt tốt",
+                "tình"
+            ]
+        }
+    ],
+    "most_common_skills": [
+        [
+            "nhanh nhẹn",
+            1
+        ],
+        [
+            "có kiến thức về da",
+            1
+        ],
+        [
+            "tận tâm",
+            1
+        ],
+        [
+            "cầu",
+            1
+        ],
+        [
+            "ngoại",
+            1
+        ],
+        [
+            "nhanh",
+            1
+        ],
+        [
+            "vật lý trị liệu",
+            1
+        ],
+        [
+            "nghiệm",
+            1
+        ],
+        [
+            "kiến thức về da",
+            1
+        ],
+        [
+            "mặt",
+            1
+        ],
+        [
+            "kinh nghiệm",
+            1
+        ],
+        [
+            "giảng dạy",
+            1
+        ],
+        [
+            "đẹp",
+            1
+        ],
+        [
+            "tạo",
+            1
+        ],
+        [
+            "chỉ chứng nhận sau",
+            1
+        ],
+        [
+            "spa - ưu tiên",
+            1
+        ],
+        [
+            "tiên",
+            1
+        ],
+        [
+            "về da",
+            1
+        ],
+        [
+            "kinh",
+            1
+        ],
+        [
+            "thẩm",
+            1
+        ]
+    ],
+    "skill_clusters": {}
+}
