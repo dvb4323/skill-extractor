@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dcf94f1-9c13-4bce-93f9-1ccc04d891af" name="Changes" comment="" />
+    <list default="true" id="1dcf94f1-9c13-4bce-93f9-1ccc04d891af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vi_spacy_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,7 +76,7 @@
       <recent name="C:\Users\Zenbook\PycharmProjects\skillExtractor" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.skill_extractor">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="skillExtractor" />
       <option name="ENV_FILES" value="" />
@@ -189,8 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
         <item itemvalue="Python.skill_extractor" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.draft" />
         <item itemvalue="Python.skill_extraction_system" />
         <item itemvalue="Python.skill_annotation_tool" />
@@ -219,7 +224,8 @@
       <workItem from="1747208799209" duration="8191000" />
       <workItem from="1747237364721" duration="1705000" />
       <workItem from="1747318112918" duration="1740000" />
-      <workItem from="1747740162992" duration="4046000" />
+      <workItem from="1747740162992" duration="4817000" />
+      <workItem from="1747807518961" duration="3646000" />
     </task>
     <servers />
   </component>
@@ -229,7 +235,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/skillExtractor$skill_extraction_system.coverage" NAME="skill_extraction_system Coverage Results" MODIFIED="1747214370272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$draft.coverage" NAME="draft Coverage Results" MODIFIED="1747743094541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/skillExtractor$skill_extractor.coverage" NAME="skill_extractor Coverage Results" MODIFIED="1747743110989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/skillExtractor$skill_extractor.coverage" NAME="skill_extractor Coverage Results" MODIFIED="1747809919465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$skill_annotation_tool.coverage" NAME="skill_annotation_tool Coverage Results" MODIFIED="1747214145043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$app.coverage" NAME="app Coverage Results" MODIFIED="1747743742097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/skillExtractor$main.coverage" NAME="main Coverage Results" MODIFIED="1747160625268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
